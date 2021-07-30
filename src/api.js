@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-function getCountry(country) {
+async function getCountry(country) {
     try {
-        return axios.get(`https://coronavirus-19-api.herokuapp.com/countries/${country}`);
+        return await axios.get(`https://coronavirus-19-api.herokuapp.com/countries/${country}`);
     } catch (error) {
         return error;
     }

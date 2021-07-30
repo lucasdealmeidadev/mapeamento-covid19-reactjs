@@ -13,7 +13,7 @@ const globalStyle = createGlobalStyle`
 
     html, body{
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         padding: 0px;
         margin: 0px;
@@ -22,7 +22,7 @@ const globalStyle = createGlobalStyle`
     #root{
         background: url('${CovidImg}');
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
