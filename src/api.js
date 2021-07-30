@@ -2,8 +2,7 @@ import axios from 'axios';
 
 function getCountry(country) {
     try {
-        const response = await axios.get(`https://coronavirus-19-api.herokuapp.com/countries/${country}`);
-        return response.json();
+        return axios.get(`https://coronavirus-19-api.herokuapp.com/countries/${country}`);
     } catch (error) {
         return error;
     }
