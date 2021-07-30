@@ -19,13 +19,25 @@ const globalStyle = createGlobalStyle`
         margin: 0px;
     }
 
-    #root {
-        background: url(${CovidImg});
+    #root{
+        background: url('${CovidImg}');
         width: 100%;
         height: 100vh;
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
+    }
+
+    .mb-2{
+        margin-bottom: 16px;
+    }
+
+    .pt-2{
+        padding-top: 16px;
+    }
+
+    .cursor{
+        cursor: pointer;
     }
 `;
 
