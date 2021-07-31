@@ -9,7 +9,7 @@ function Board({ data }) {
     const getValue = (value) => {
         if(value === 0) return 0;
         
-        return value ? value.toLocaleString('pt-BR') : <Skeleton variant="text" width='100%' height={60} />
+        return value ? value.toLocaleString('pt-br') : <Skeleton variant="text" width='100%' height={60} />
     }
 
     return (

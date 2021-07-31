@@ -8,18 +8,18 @@ import {
     CardContentStyled
 } from './style';
 
-const CardUICustom = styled(CardUI) `
+const CardStyled = styled(CardUI)`
     text-align: center;
-`;  
+`;
 
 function Card({ value, label, color }) {
     return (
-        <CardUICustom>
+        <CardStyled>
             <CardContentStyled color={color}>
                 <ValueStyled>{value}</ValueStyled>
                 <LabelStyled>{label}</LabelStyled>
             </CardContentStyled>
-        </CardUICustom>
+        </CardStyled>
     )
 }
 
