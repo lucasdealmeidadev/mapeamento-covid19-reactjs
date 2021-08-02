@@ -25,7 +25,7 @@ Caso você deseja executar o projeto na sua máquina local, basta seguir os pass
 
 Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
-Abre o cmd (caso esteja utilizando o Windows) navegue até o local onde você clonou o projeto
+Abra o cmd (caso esteja utilizando o Windows) navegue até o local onde você clonou o projeto
 
 ```
 cd "C:\Users\NomeDoComputador\Documents\cloneprojeto"
