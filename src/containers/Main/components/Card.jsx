@@ -16,8 +16,8 @@ function Card({ value, label, color }) {
     return (
         <CardStyled>
             <CardContentStyled color={color}>
-                <ValueStyled>{value}</ValueStyled>
-                <LabelStyled>{label}</LabelStyled>
+                <ValueStyled style={{ fontSize: '35px', fontWeight: '700' }}>{value}</ValueStyled>
+                <LabelStyled style={{ fontSize: '15.1px', textTransform: 'uppercase', fontWeight: '700' }}>{label}</LabelStyled>
             </CardContentStyled>
         </CardStyled>
     )

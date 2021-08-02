@@ -23,7 +23,7 @@ function Main() {
     }
 
     return (
-        <ContainerStyled>
+        <ContainerStyled style={{ maxWidth: '1300px' }}>
             <div className="mb-2">
                 <Panel
                     data={data}

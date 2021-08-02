@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import CovidImg from '../../assets/images/covid.jpg';
 
 const globalStyle = createGlobalStyle`
     *{
@@ -20,12 +19,8 @@ const globalStyle = createGlobalStyle`
     }
 
     #root{
-        background: url('${CovidImg}');
         width: 100%;
         min-height: 100vh;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
     }
 
     .mb-2{
