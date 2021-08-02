@@ -1,4 +1,4 @@
-# Acompanhamento das estatísticas do Coronavírus (COVID-19) pelo mundo
+# Desenvolvendo uma Progressive Web Application com React para mapear os dados do COVID19 pelo mundo
 
 ![Preview](https://github.com/lucasdealmeidadev/mapeamento-covid19-reactjs/blob/main/01.png?raw=true)
 
