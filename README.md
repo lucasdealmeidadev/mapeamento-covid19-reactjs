@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Acompanhamento das estatísticas do Coronavírus (COVID-19) pelo mundo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Preview](https://github.com/lucasdealmeidadev/mapeamento-covid19-reactjs/blob/main/01.png?raw=true)
 
-## Available Scripts
+Progressive Web Application com React para mapear os dados do COVID-19 pelo mundo. Esse projeto foi uma ampliação da aula ministrada por **Bruno Carneiro** na **Digital Innovation One**.
 
-In the project directory, you can run:
+Foram adicionados os seguintes recursos ao projeto:
 
-### `npm start`
+- Interface do projeto foi totalmente remodelada;
+- Todas as requisições realizadas ao servidor são processadas de modo assincrona utilizado o cliente HTTP **Axios**;
+- Por fim, foi introduzido ao projeto o Dark e Light Mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Recursos utilizados
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* **[Axios](https://axios-http.com/docs/intro)**
+* **[React](https://pt-br.reactjs.org/)**
+* **[Styled Components](https://styled-components.com/)**
+* **[Material-UI ](http://expressjs.com/pt-br/)**
 
-### `npm test`
+## 🔥 Executando a aplicação no ambiente local
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Caso você deseja executar o projeto na sua máquina local, basta seguir os passos abaixo:
 
-### `npm run build`
+### 🌀 Começando... 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### ❗️ Instalando as dependências (via Windows): 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Abre o cmd (caso esteja utilizando o Windows) navegue até o local onde você clonou o projeto
 
-### `npm run eject`
+```
+cd "C:\Users\NomeDoComputador\Documents\cloneprojeto"
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução: **(dentro da pasta do projeto clonado)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* `node_modules` - que contêm os packages do npm que precisará para o projeto.
 
-## Learn More
+#### 💨 Executando a aplicação 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+No diretório do projeto execute o camando abaixo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+> npm start
+```
 
-### Code Splitting
+## 🚩 Tenho dúvidas... O que fazer? 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Caso tenham dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/lucasdealmeidadev/mapeamento-covid19-reactjs/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
 
-### Analyzing the Bundle Size
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Licenciado sob a licença MIT - veja [LICENSE](https://github.com/lucasdealmeidadev/mapeamento-covid19-reactjs/blob/main/LICENSE) para mais informações.
 
-### Making a Progressive Web App
+----------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por Lucas de Almeida Monteiro (:  👋  [ Entrar em contato!!](https://www.linkedin.com/in/lucas-almeida-145a4513a)
