@@ -7,7 +7,7 @@ Progressive Web Application com React para mapear os dados do COVID-19 pelo mund
 Foram adicionados os seguintes recursos ao projeto:
 
 - Interface do projeto foi totalmente remodelada;
-- Todas as requisições realizadas ao servidor são processadas de modo assincrona utilizado o cliente HTTP **Axios**;
+- Todas as requisições realizadas ao servidor são processadas de modo assíncrono utilizado o cliente HTTP **Axios**;
 - Por fim, foi introduzido ao projeto o Dark e Light Mode.
 
 ## 🚀 Recursos utilizados
