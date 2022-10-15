@@ -59,4 +59,4 @@ Caso tenham dúvidas sobre o código do projeto, sintam-se a vontade em abrir um
 
 ----------
 
-Desenvolvido por Lucas de Almeida Monteiro (:  👋  [ Entrar em contato!!](https://www.linkedin.com/in/lucas-almeida-145a4513a)
+Desenvolvido por Lucas de Almeida Monteiro (:  👋  [ Entrar em contato!!](https://www.linkedin.com/in/lucas-de-almeida-monteiro)
